@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+
+      >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_numbers"
+        android:scaleType="center"
+        android:background="#ffebcd"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/numImgView"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/numbers"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/white"
+
+
+        />
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/words"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/white"
+        />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <ImageView
+          android:layout_width="48dp"
+          android:layout_height="48dp"
+          android:layout_centerVertical="true"
+          android:layout_alignParentRight="true"
+          android:src="@drawable/play_2"
+          android:paddingRight="12dp"
+          />
+
+
+    </RelativeLayout>
+
+  </LinearLayout>
+    
+</LinearLayout>

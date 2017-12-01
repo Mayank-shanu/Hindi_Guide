@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mayankjain.mysecapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hg"
+        android:label="Hindi Guide"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NumberActivity" android:label="Number" />
+        <activity android:name=".FMembersActivity" android:label="Family Members"/>
+        <activity android:name=".ColorsActivity" android:label="Colors"/>
+        <activity android:name=".PhrasesActivity" android:label="Phrases"></activity>
+    </application>
+
+</manifest>

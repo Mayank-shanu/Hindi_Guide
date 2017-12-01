@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe4c4"
+    >
+
+<TextView
+    android:paddingTop="12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:text="ABOUT"
+    android:id="@+id/about_about"
+    android:textColor="#a52a2a"
+    android:textStyle="bold"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hindi Guide Version 1.0"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/about_about"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Created By: Mayank Jain \n (DTU 2k16/B4/671)"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#dc143c"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="jmayank615@gmail.com"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/email"
+        android:padding="13dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="FOR ANY QUERY OR SUGGESTION CONTACT:"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:layout_above="@id/email"
+        android:layout_centerHorizontal="true"
+        android:padding="13dp"
+        />
+
+
+
+
+</RelativeLayout>
